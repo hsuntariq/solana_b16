@@ -1,0 +1,42 @@
+:root {
+  --primary: #121212;
+  --secondary: #00ffbd;
+}
+
+body {
+  background-color: var(--primary);
+  overflow-x: hidden !important;
+}
+
+::selection {
+  background-color: var(--secondary);
+  color: black;
+}
+
+nav input::placeholder {
+  color: gray !important;
+}
+
+header {
+  background-image: linear-gradient(90deg, #c766ef, #7928d2 51.04%, #2b0c52);
+}
+
+nav a {
+  color: gray !important;
+  font-size: 1.3rem !important;
+}
+
+.btn-purple {
+  background-image: linear-gradient(90deg, #c766ef, #7928d2 51.04%, #2b0c52);
+}
+
+.ring-image {
+  z-index: -1;
+  right: -90%;
+  top: -20%;
+}
+.ring-image2 {
+  z-index: -1;
+  left: -90%;
+  top: -20%;
+}
